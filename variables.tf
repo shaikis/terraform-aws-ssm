@@ -14,5 +14,5 @@ variable "ssm_documents" {
 variable "aws_region" {
   type = string
   description = "aws region"
-  default = "eu-west-1"
+  default = "eu-east-1"
 }

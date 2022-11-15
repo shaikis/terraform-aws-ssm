@@ -1,32 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Codespaces
-Marketplace
-Explore
- 
-@shaikis 
-Young-ook
-/
-terraform-aws-ssm
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-terraform-aws-ssm/examples/ssm-document/templates/envoy.yaml
-@Young-ook
-Young-ook feat(ssm): feature toggles to enable ssm associations (#78)
-…
-Latest commit 624460c 13 days ago
- History
- 1 contributor
-334 lines (293 sloc)  11.4 KB
-
 ---
 schemaVersion: '2.2'
 description: Install Envoy Proxy
@@ -320,18 +291,3 @@ mainSteps:
             enable_routing
         fi
         main_loop
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-terraform-aws-ssm/envoy.yaml at 1.0.4 · Young-ook/terraform-aws-ssm
